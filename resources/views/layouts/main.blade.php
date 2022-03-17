@@ -12,7 +12,9 @@
 <body>
   @include('includes.header')
   <div class="container">
-    <h1>ciao</h1>
+    <main>
+      @yield('main')
+    </main>
   </div>
 </body>
 
